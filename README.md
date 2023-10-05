@@ -1,1 +1,1 @@
-This is my personal portfolio website, made using React and Node.
+This is my personal portfolio website under construction.
