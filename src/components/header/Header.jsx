@@ -14,6 +14,7 @@ const Header = () => {
         <CTA />
 
         <HeaderSocials />
+        
         <div className="me">
           <img src={ME} alt="Ananya's Photo" />
         </div>
