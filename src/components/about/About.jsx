@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assests/aboutme.png'
+import {GrUserWorker} from 'react-icons/gr'
 
 export const About = () => {
   return (
@@ -11,7 +12,7 @@ export const About = () => {
    <div className="container about__container">
     <div className="about__me">
       <div className="about__me-image">
-        <img src="{ME}" alt="About me Image" />
+        <img src={ME} alt="About me Image" />
       </div>
     </div>
 
