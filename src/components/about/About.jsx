@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import ME from '../../assests/aboutme.png'
 import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
+import { FaPenNib } from "react-icons/fa";
 import {VscFolderLibrary} from 'react-icons/vsc'
 
 export const About = () => {
@@ -28,9 +28,9 @@ export const About = () => {
         </article>
 
         <article className="about__card">
-          <FiUsers className='about__icon' />
-          <h5>Clients</h5>
-          <small>200+ Worldwide</small>
+          <FaPenNib className='about__icon' />
+          <h5>Blogs</h5>
+          <small>My Blogs on Medium and Hashnode</small>
         </article>
 
         <article className="about__card">
