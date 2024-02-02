@@ -1,54 +1,69 @@
 import React from "react";
 import "./skills.css";
-import { FaHtml5 } from "react-icons/fa";
+import {
+  FaHtml5,
+  FaBootstrap,
+  FaReact,
+  FaPython,
+  FaNodeJs,
+  FaPhp,
+  FaAws,
+  FaGithub,
+} from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
-import { SiJavascript } from "react-icons/si";
-import { FaBootstrap } from "react-icons/fa";
-import { FaReact } from "react-icons/fa";
-import { FaPython } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa";
-import { FaPhp } from "react-icons/fa";
+import { SiJavascript, SiMongodb, SiDjango, SiPycharm } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
-import { SiMongodb } from "react-icons/si";
-import { SiDjango } from "react-icons/si";
+import { BiLogoNetlify } from "react-icons/bi";
+import { TbBrandVscode } from "react-icons/tb";
 
 const Skills = () => {
   return (
     <section id="skills">
+      <h5>What Skills I Have</h5>
       <h2>My Skills</h2>
 
-      <div className="container skills__container">
+      <div className="skills__container">
         <div className="skills_frontend">
           <h3>Frontend Development</h3>
-          <div className="skills_content">
+          <div className="skills__content">
             <article className="skills_details">
-              <FaHtml5 />
-              <h4>HTML</h4>
-              <small className="text-light">Experienced</small>
+              <FaHtml5 className="skills_details-icon" />
+              <div>
+                <h4>HTML</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
 
             <article className="skills_details">
-              <IoLogoCss3 />
-              <h4>CSS</h4>
-              <small className="text-light">Intermediate</small>
+              <IoLogoCss3 className="skills_details-icon" />
+              <div>
+                <h4>CSS</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
             </article>
 
             <article className="skills_details">
-              <SiJavascript />
-              <h4>JavaScript</h4>
-              <small className="text-light">Intermediate</small>
+              <SiJavascript className="skills_details-icon" />
+              <div>
+                <h4>JavaScript</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
             </article>
 
             <article className="skills_details">
-              <FaBootstrap />
-              <h4>Bootstrap</h4>
-              <small className="text-light">Intermediate</small>
+              <FaBootstrap className="skills_details-icon" />
+              <div>
+                <h4>Bootstrap</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
             </article>
 
             <article className="skills_details">
-              <FaReact />
-              <h4>React</h4>
-              <small className="text-light">Intermediate</small>
+              <FaReact className="skills_details-icon" />
+              <div>
+                <h4>React</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
             </article>
           </div>
         </div>
@@ -56,46 +71,103 @@ const Skills = () => {
 
         <div className="skills__backend">
           <h3>Backend Development</h3>
-          <div className="skills_content">
+          <div className="skills__content">
             <article className="skills_details">
-              <FaPython />
-              <h4>Python</h4>
-              <small className="text-light">Experienced</small>
+              <FaPython className="skills_details-icon" />
+              <div>
+                <h4>Python</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
 
             <article className="skills_details">
-            <FaNodeJs />
-              <h4>Node JS</h4>
-              <small className="text-light">Beginner</small>
+              <FaNodeJs className="skills_details-icon" />
+              <div>
+                <h4>Node JS</h4>
+                <small className="text-light">Beginner</small>
+              </div>
             </article>
 
             <article className="skills_details">
-            <FaPhp />
-              <h4>PHP</h4>
-              <small className="text-light">Beginner</small>
+              <FaPhp className="skills_details-icon" />
+              <div>
+                <h4>PHP</h4>
+                <small className="text-light">Beginner</small>
+              </div>
             </article>
 
             <article className="skills_details">
-            <GrMysql />
-              <h4>MySQL</h4>
-              <small className="text-light">Intermediate</small>
+              <GrMysql className="skills_details-icon" />
+              <div>
+                <h4>MySQL</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
             </article>
 
             <article className="skills_details">
-            <SiMongodb />
-              <h4>MongoDB</h4>
-              <small className="text-light">Beginner</small>
-            </article>
-
-            <article className="skills_details">
-            <SiDjango />
-              <h4>Django</h4>
-              <small className="text-light">Beginner</small>
+              <SiMongodb className="skills_details-icon" />
+              <div>
+                <h4>MongoDB</h4>
+                <small className="text-light">Beginner</small>
+              </div>
             </article>
           </div>
         </div>
         {/* END OF BACKEND */}
 
+        <div className="skills_tools_and_frameworks">
+          <h3>Tools & Frameworks</h3>
+          <div className="skills__content">
+            <article className="skills_details">
+              <SiDjango className="skills_details-icon" />
+              <div>
+                <h4>Django</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </article>
+
+            <article className="skills_details">
+              <FaAws className="skills_details-icon" />
+              <div>
+                <h4>AWS</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </article>
+
+            <article className="skills_details">
+              <SiPycharm className="skills_details-icon" />
+              <div>
+                <h4>PyCharm</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="skills_details">
+              <TbBrandVscode className="skills_details-icon" />
+              <div>
+                <h4>VS Code</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="skills_details">
+              <BiLogoNetlify className="skills_details-icon" />
+              <div>
+                <h4>Netlify</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+
+            <article className="skills_details">
+              <FaGithub className="skills_details-icon" />
+              <div>
+                <h4>Git & GitHub</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+          </div>
+        </div>
+        {/* END OF TOOLS & FRAMEWORKS */}
       </div>
     </section>
   );
