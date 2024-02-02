@@ -43,11 +43,11 @@ export const About = () => {
           </div>
 
           <p id="about-me">
-            Hello! I'm Ananya, based in Gurugram, India. With a love for clean
+            Hello! I'm Ananya, based in Gurugram, India.<br/> With a love for clean
             code and captivating design, I am learning how to craft beautiful,
-            aesthetic and functional user interfaces. I also enjoy sharing my
+            aesthetic and functional user interfaces. <br/>I also enjoy sharing my
             knowledge and insights through writing engaging content on
-            technology and development. When I'm not busy coding, you can find
+            technology and development.<br/> When I'm not busy coding, you can find
             me exploring new cafes, capturing moments through my camera lens, or
             lost in the pages of a good book.
           </p>
