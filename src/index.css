@@ -41,7 +41,7 @@ body {
     background-image: url(../src/assests/bg-texture.png);
 }
 
-/* =========== GENERAT STYLES ============ */
+/* =========== GENERATE STYLES ============ */
 .container {
     width: var(--container-width-lg);
     margin: 0 auto;
