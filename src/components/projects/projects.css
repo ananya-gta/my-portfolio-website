@@ -5,50 +5,46 @@
 }
 
 .projects__item {
-    background: var(--color-bg-variant);
-    padding: 1.3rem;
-    border-radius: 2rem;
-    border: 1px solid  transparent;
-    transition: var(--transition);
+  background: var(--color-bg-variant);
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
 }
 
 .projects__item:hover {
-border-color: var(--color-primary-variant);
-background: transparent;
+  border-color: var(--color-primary-variant);
+  background: transparent;
 }
 
 .projects__item-image {
-    border-radius: 1.5rem;
-    overflow: hidden;
+  border-radius: 1.5rem;
+  overflow: hidden;
 }
 
-.projects__item h3, h5 {
-    margin: 1rem 0;
+.projects__item h3,
+h5 {
+  margin: 1rem 0;
 }
 
 .projects__item-cta {
-    display: flex;
-    gap: 1rem;
-    /* margin-bottom: 1rem; */
+  display: flex;
+  gap: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 /* ========== MEDIA QUERIES (MEDIUM SCREEN DEVICES) TABLETS ============ */
 @media screen and (max-width: 1024px) {
-    .projects__container {
-      grid-template-columns: 1fr 1fr;
-      gap: 1.2rem;
-    }
-  
-    
+  .projects__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
   }
-  
-  /* ========== MEDIA QUERIES (SMALL SCREEN DEVICES) MOBILE PHONES ============ */
-  @media screen and (max-width: 600px) {
+}
 
-    .projects__container {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
+/* ========== MEDIA QUERIES (SMALL SCREEN DEVICES) MOBILE PHONES ============ */
+@media screen and (max-width: 600px) {
+  .projects__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
   }
-
-
+}
