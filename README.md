@@ -1,2 +1,2 @@
 # 💼 This is my personal portfolio website, currently under construction. 🛠️👷‍♀️
-[Ananya's Portfolio Website](https://ananyagupta.netlify.app)
+[Link to Ananya's Portfolio Website](https://ananyagupta.netlify.app)
