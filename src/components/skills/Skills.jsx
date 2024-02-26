@@ -9,12 +9,14 @@ import {
   FaPhp,
   FaAws,
   FaGithub,
+  FaAngular
 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
-import { SiJavascript, SiMongodb, SiDjango, SiPycharm } from "react-icons/si";
+import { SiJavascript, SiMongodb, SiDjango, SiPycharm, SiPostman } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { BiLogoNetlify } from "react-icons/bi";
 import { TbBrandVscode } from "react-icons/tb";
+import { BiLogoSpringBoot } from "react-icons/bi";
 
 const Skills = () => {
   return (
@@ -65,6 +67,14 @@ const Skills = () => {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
+
+            <article className="skills_details">
+              <FaAngular className="skills_details-icon" />
+              <div>
+                <h4>Angular</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </article>
           </div>
         </div>
         {/* END OF FRONTEND */}
@@ -100,7 +110,7 @@ const Skills = () => {
               <GrMysql className="skills_details-icon" />
               <div>
                 <h4>MySQL</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
 
@@ -109,6 +119,14 @@ const Skills = () => {
               <div>
                 <h4>MongoDB</h4>
                 <small className="text-light">Beginner</small>
+              </div>
+            </article>
+
+            <article className="skills_details">
+              <BiLogoSpringBoot className="skills_details-icon" />
+              <div>
+                <h4>Spring Boot</h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>
@@ -163,6 +181,14 @@ const Skills = () => {
               <div>
                 <h4>Git & GitHub</h4>
                 <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+
+            <article className="skills_details">
+              <SiPostman className="skills_details-icon" />
+              <div>
+                <h4>Postman</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
           </div>

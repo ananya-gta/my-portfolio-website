@@ -3,6 +3,7 @@ import "./projects.css";
 import IMG1 from "../../assests/sociobuzz.png";
 import IMG2 from "../../assests/imaginai.png";
 import IMG3 from "../../assests/deja-brew.jpg";
+import IMG4 from "../../assests/note-me.png"
 
 // array of projects
 // now whenever you want to add a new project just add json in the data array
@@ -32,10 +33,19 @@ const data = [
     deployed_url:
       "https://github.com/ananya-gta/cafe-website/blob/main/README.md",
   },
+  {
+    id: 4,
+    image: IMG4,
+    title: "NoteMe",
+    desc: "A simple note-taking web application built mainly to get familiar with React.With NoteMe, you can effortlessly jot down and organize your thoughts and ideas.",
+    github: "https://github.com/ananya-gta/note-me",
+    deployed_url:
+      "https://ananya-noteme.netlify.app/",
+  },
 ];
 
 const Projects = () => {
-  return (
+  return ( 
     <section id="projects">
       <h5> My Recent Work</h5>
       <h2>Projects</h2>
@@ -50,7 +60,7 @@ const Projects = () => {
               <h3>{title}</h3>
               <h5>{desc}</h5>
               <div className="projects__item-cta">
-                <a href={github} className="btn">
+                <a href={github} className="btn" target="_blank" rel="noreferrer">
                   GitHub
                 </a>
                 <a

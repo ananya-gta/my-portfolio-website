@@ -35,7 +35,7 @@ const Contact = () => {
 
       <div className="container contact__container">
         <div className="contact__options">
-          <article className="contact__option">
+          {/* <article className="contact__option">
             <MdOutlineMail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>anannya.gta@gmail.com</h5>
@@ -46,7 +46,7 @@ const Contact = () => {
             >
               Send a message
             </a>
-          </article>
+          </article> */}
 
           <article className="contact__option">
             <FaLinkedin className="contact__option-icon" />
