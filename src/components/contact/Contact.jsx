@@ -64,7 +64,7 @@ const Contact = () => {
           <article className="contact__option">
             <FaTwitter className="contact__option-icon" />
             <h4>Twitter</h4>
-            <h5>@ananya_192</h5>
+            <h5>@ananyxgupta</h5>
             <a
               href="https://twitter.com/messages/compose?recipient_id=1570679027886858241"
               target="_blank"
